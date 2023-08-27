@@ -3,12 +3,12 @@
     font-size: 12px;
 }
 
-.iconfont,
-.layui-icon {
-    margin-right: 8px;
+.iconfont {
+    margin-right: 10px;
 }
 
 .layui-icon {
+    margin-right: 10px;
     margin-left: 20px;
 }
 
@@ -28,29 +28,30 @@ a {
 .userinfo {
     height: 60px;
     line-height: 60px;
-    text-align: center;
+    margin-left: 20px;
     font-size: 12px;
+    /* 禁止被选中 */
     user-select: none;
 }
-
-.layui-side-scroll>.userinfo {
-    border-bottom: 1px solid #282B33;
+.layui-side-scroll .userinfo {
+    border-bottom: 1px solid #282b33;
 }
 
 .layui-nav-img {
     width: 40px;
     height: 40px;
 }
-
 .text-avatar {
     display: inline-block;
     width: 40px;
     height: 40px;
-    line-height: 40px;
-    background: #009688;
+    background-color: #009688;
     border-radius: 50%;
-    vertical-align: middle;
+    text-align: center;
+    line-height: 40px;
     font-size: 20px;
     color: #fff;
+    position: relative;
+    top: 4px;
     margin-right: 10px;
 }
